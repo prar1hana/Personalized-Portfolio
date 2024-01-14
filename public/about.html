@@ -1,5 +1,8 @@
-<h1>About Me</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem tellus, sagittis non odio nec, interdum
+<div class="center">
+
+<div class="header"><h1>About Me</h1></div>
+<div class=
+"poi"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem tellus, sagittis non odio nec, interdum
   elementum lacus. Ut ac justo eget risus sollicitudin fringilla sed ut leo. Ut condimentum elit nec fermentum lobortis.
   Quisque tincidunt quam nec tincidunt ullamcorper. Integer vitae pretium justo. In placerat volutpat pellentesque.
   Etiam
@@ -18,56 +21,66 @@
   interdum sollicitudin id quis augue. Donec congue nisl nec massa ornare imperdiet quis quis odio. Etiam ut volutpat
   nisl. Vestibulum hendrerit justo nibh, eget consequat magna fermentum finibus. Pellentesque et urna fringilla, rutrum
   neque in, varius leo. Vestibulum efficitur id massa eget pellentesque.</p>
-<div class="center">
- <h1>
-   Background Animation
-   </h1>
 </div>
+ 
+
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
 body  {
-    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
-        -webkit-animation: slidein 100s;
-        animation: slidein 100s;
+    background-image: url('../assets/images/aesthetic-moodboard.jpg');
+  background-size:contain;
+        -webkit-animation: slidein 5s;
+        animation: slidein 5s;
 
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
 
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: one;
+        animation-iteration-count: one;
 
         -webkit-animation-direction: alternate;
         animation-direction: alternate;              
 }
 
 @-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+from {background-position: top; background-size:00px; }
+to {background-position: top;background-size:20px;}
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+from {background-position: center;background-size:390px; }
+to {background-position: center;background-size:1167px;}
 
 }
+.header{position: relative;
+  top: 7;
+  right: 0;
+  bottom: 0;
+  left: 430;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: oblique ;
+}
+.poi{padding: 25px ;
+   display: flex;
+background: rgba(16, 18, 19, 0.812);
 
-
-
+}
 .center
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+{ 
+  background: #201f1e83;
+  color: rgb(253, 253, 253);
+ 
+  align-items: normal;
+  justify-content: normal;
   position: absolute;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(75, 75, 250, 0.3);
+  font-size: larger;
   border-radius: 3px;
 }
 .center h1{
