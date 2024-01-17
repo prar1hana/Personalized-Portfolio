@@ -1,6 +1,6 @@
 <center>
-     <div class="topheader"><h1>Prarthana Phukan's Portfolio</h1></center></div>
-     <div class="subhead"><h2>My Web Development Projects-</h2></div>
+  <div class="topheader"><h1>Prarthana Phukan's Portfolio</h1></center></div>
+  <div class="subhead"><h2>My Web Development Projects-</h2></div>
 <hr/>
 <center><div class="header"><h3><a href="./public/movie ranking.html">Movie Ranking Project</a></h3>
 <a href="./public/movie ranking.html"><img src="./assets/images/movie.png" height ="437" width="390"/></a></div>
@@ -9,239 +9,243 @@
 <a href="./public/birthday invite.html"><img src="./assets/images/birthday-invite.png"height ="407" width="390"/></a>
 </div>
 <hr/>
+</center>
 
-
-<div class="subhead"> <a href="./contact.html">Contact</a><br/><a href="https://www.linkedin.com/in/prarthana-phukan-464023278/">Linkedin</a><br/>Instagram<br/>
-<a href="./public/about.html"><div class="letter-image">
-     
-     <div class="animated-mail">
-       <div class="back-fold"></div>
-       <div class="letter">
-         <div class="letter-border"></div>
-         <div class="letter-title">About me
-     </div>
-         <div class="letter-context"><p>contact</p>
-         </div>
-         <div class="letter-stamp">
-           <div class="letter-stamp-inner"></div>
-         </div>
-       </div>
-       <div class="top-fold"></div>
-       <div class="body"></div>
-       <div class="left-fold"></div>
-     </div>
-     <div class="shadow"></div>
-   </div>
+<div class="subhead"> <a href="./public/about.html">About Me</a><br/><a href="https://www.linkedin.com/in/prarthana-phukan-464023278/">Linkedin</a><br/><a href="https://www.instagram.com/prarthanaphukan_">Instagram</a><br/>
+<a href="./public/contact.html">
+  <br/>
+  <center>Contact Me
+  <div class="letter-image">
+  <div class="animated-mail">
+    <div class="back-fold"></div>
+    <div class="letter">
+      <div class="letter-border"></div>
+      <div class="letter-title"> </div>
+      <div class="letter-context">
+      </div>
+      <div class="letter-stamp">
+        <div class="letter-stamp-inner"></div>
+      </div>
+    </div>
+    <div class="top-fold"></div>
+    <div class="body"></div>
+    <div class="left-fold"></div>
+  </div>
+  <div class="shadow"></div>
+</div>
 </a>
 </div>
 </center>
 <style>
-    
+ 
 
 .letter-image {
-  position: static;
-  top: 50%;
-  left: 10%;
-  width: 10px;
-  height: 200px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-  
+
+position: relative;
+top: 50%;
+left: 10%;
+width: 10px;
+height: 200px;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+cursor: pointer;
+
 }
 
 .animated-mail {
-  position: fixed;
-  height: 150px;
-  width: 100px;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  transition: .4s;
+position: absolute;
+height: 150px;
+width: 100px;
+-webkit-transition: .4s;
+-moz-transition: .4s;
+transition: .4s;
+
+.body {
+ position: absolute;
+ bottom: 0;
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 0 0 100px 200px;
   
-  .body {
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 100px 200px;
-     
-    border-color: transparent transparent #7daa9b transparent;
-    z-index: 2;
-  }
+ border-color: transparent transparent #7daa9b transparent;
+ z-index: 2;
+}
+
+.top-fold {
+ position: absolute;
+ top: 50px;
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 50px 100px 0 100px;
+ -webkit-transform-origin: 50% 0%;
+ -webkit-transition: transform .4s .4s, z-index .2s .4s;
+ -moz-transform-origin: 50% 0%;
+ -moz-transition: transform .4s .4s, z-index .2s .4s;
+ transform-origin: 50% 0%;
+ transition: transform .4s .4s, z-index .2s .4s;
+ border-color: #4d7469 transparent transparent transparent;
+ 
+ z-index: 2;
+}
+
+.back-fold {
+ position: absolute;
+ bottom: 0;
+ width: 200px;
+ height: 100px;
+ background: #4e9967;
+background-image: url("./assets/images/hearts.jpg");
+  background-size: contain;
+ z-index: 0;
+}
+
+.left-fold {
+ position: absolute;
+ bottom: 0;
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 50px 0 50px 100px;
+ border-color: transparent transparent transparent #649599;
+ z-index: 2;
+}
+
+.letter {align-content: center;
   
-  .top-fold {
-    position: absolute;
-    top: 50px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 100px 0 100px;
-    -webkit-transform-origin: 50% 0%;
-    -webkit-transition: transform .4s .4s, z-index .2s .4s;
-    -moz-transform-origin: 50% 0%;
-    -moz-transition: transform .4s .4s, z-index .2s .4s;
-    transform-origin: 50% 0%;
-    transition: transform .4s .4s, z-index .2s .4s;
-    border-color: #4d7469 transparent transparent transparent;
-    
-    z-index: 2;
-  }
+ left: 20px;
+ bottom: 0px;
+ position: absolute;
+ width: 160px;
+ height: 60px;
+ background: rgb(242, 242, 242);
+ z-index: 1;
+ overflow: hidden;
+ -webkit-transition: .4s .2s;
+ -moz-transition: .4s .2s;
+ transition: .4s .2s;
+ 
+ .letter-border {
+   height: 10px;
+   width: 100%;
+   background: repeating-linear-gradient(
+     -45deg,
+     #478b5b,
+     #b85acb 8px,
+     transparent 8px,
+     transparent 18px
+   );
+ }
+ 
+ .letter-title {
+   margin-top: 10px;
+   margin-left: 5px;
+   height: 10px;
+   width: 40%;
+   background: #d9ddd1;
+   
+  font-size: 0.5em; 
+ }
+ .letter-context {
+   margin-top: 10px;
+   margin-left: 5px;
+   height: 10px;
+   width: 20%;
+   background: #e3d5d5;
   
-  .back-fold {
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    height: 100px;
-    background: #4e9967;
-   background-image: url("./assets/images/hearts.jpg");
-     background-size: contain;
-    z-index: 0;
-  }
+  font-size: 0.5em; 
   
-  .left-fold {
-    position: absolute;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 0 50px 100px;
-    border-color: transparent transparent transparent #649599;
-    z-index: 2;
-  }
-  
-  .letter {
-     
-    left: 20px;
-    bottom: 0px;
-    position: absolute;
-    width: 160px;
-    height: 60px;
-    background: rgb(242, 242, 242);
-    z-index: 1;
-    overflow: hidden;
-    -webkit-transition: .4s .2s;
-    -moz-transition: .4s .2s;
-    transition: .4s .2s;
-    
-    .letter-border {
-      height: 10px;
-      width: 100%;
-      background: repeating-linear-gradient(
-        -45deg,
-        #478b5b,
-        #b85acb 8px,
-        transparent 8px,
-        transparent 18px
-      );
-    }
-    
-    .letter-title {
-      margin-top: 10px;
-      margin-left: 5px;
-      height: 10px;
-      width: 40%;
-      background: #d9ddd1;
-      
-     font-size: 0.5em; 
-    }
-    .letter-context {
-      margin-top: 10px;
-      margin-left: 5px;
-      height: 10px;
-      width: 20%;
-      background: #e3d5d5;
-     
-     font-size: 0.5em; 
-     
-    }
-    
-    .letter-stamp {
-      margin-top: 30px;
-      margin-left: 120px;
-      border-radius: 100%;
-      height: 30px;
-      width: 30px;
-      background: #cb5a5e;
-      opacity: 0.3;
-      
-    
-    }
-  }
+ }
+ 
+ .letter-stamp {
+   margin-top: 30px;
+   margin-left: 120px;
+   border-radius: 100%;
+   height: 30px;
+   width: 30px;
+   background: #cb5a5e;
+   opacity: 0.3;
+   
+ 
+ }
+}
 }
 
 .shadow {
-  position: relative;
-  top: 200px;
-  left: 800%;
-  width: 400px;
-  height: 30px;
-  transition: .4s;
-  transform: translateX(-50%);
-  -webkit-transition: .4s;
-  -webkit-transform: translateX(-50%);
-  -moz-transition: .4s;
-  -moz-transform: translateX(-50%);
-  
-  border-radius: 100%;
-  background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0), rgba(0,0,0,0.0));
+ align-content: center;
+position: relative;
+top: 200px;
+left: 800%;
+width: 400px;
+height: 30px;
+transition: .4s;
+transform: translateX(-50%);
+-webkit-transition: .4s;
+-webkit-transform: translateX(-50%);
+-moz-transition: .4s;
+-moz-transform: translateX(-50%);
+
+border-radius: 100%;
+background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0), rgba(0,0,0,0.0));
 }
 
-  .letter-image:hover {
-    .animated-mail {
-      transform: translateY(50px);
-      -webkit-transform: translateY(50px);
-      -moz-transform: translateY(50px);
-    }
-    
-    .animated-mail .top-fold {
-      transition: transform .4s, z-index .2s;
-      transform: rotateX(180deg);
-      -webkit-transition: transform .4s, z-index .2s;
-      -webkit-transform: rotateX(180deg);
-      -moz-transition: transform .4s, z-index .2s;
-      -moz-transform: rotateX(180deg);
-      z-index: 0;
-    }
-    
-    .animated-mail .letter {
-      height: 180px;
-    }
-    
-    .shadow {
-      width: 250px;
-    }
-  }
-     .header {
-  padding: 20px;
-  text-align: center;
-  background: #e8eee272;
-  color: rgb(16, 16, 16);
-  font-size: 25px;
+.letter-image:hover {
+ .animated-mail {
+   transform: translateY(50px);
+   -webkit-transform: translateY(50px);
+   -moz-transform: translateY(50px);
+ }
+ 
+ .animated-mail .top-fold {
+   transition: transform .4s, z-index .2s;
+   transform: rotateX(180deg);
+   -webkit-transition: transform .4s, z-index .2s;
+   -webkit-transform: rotateX(180deg);
+   -moz-transition: transform .4s, z-index .2s;
+   -moz-transform: rotateX(180deg);
+   z-index: 0;
+ }
+ 
+ .animated-mail .letter {
+   height: 180px;
+ }
+ 
+ .shadow {
+   width: 250px;
+ }
+}
+  .header {
+padding: 20px;
+text-align: center;
+background: #e8eee272;
+color: rgb(16, 16, 16);
+font-size: 25px;
 }
 .topheader {
-  padding: 25px;
-  text-align: center;
-  background: #b573c5;
-  color: rgb(16, 16, 16);
-  font-size: 37px;
-  font-family: Arial, Helvetica, sans-serif;
+padding: 25px;
+text-align: center;
+background: #b573c5;
+color: rgb(16, 16, 16);
+font-size: 37px;
+font-family: Arial, Helvetica, sans-serif;
 }
 .subhead {
-  padding: 5px;
-  text-align: center;
-  background: #b3875583;
-  color: rgb(253, 253, 253);
-  font-size: 35px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 5px;
+text-align: center;
+background: #b3875583;
+color: rgb(253, 253, 253);
+font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-     body {
-       background-image: url('./assets/images/BACKG.jpg');
-       font-family: Lucida Sans Unicode;
-       margin: 10;
-     }
-     
- 
-     </style>
-     
+  body {
+    overflow-x: hidden;
+    background-image: url('./assets/images/BACKG.jpg');
+    font-family: Lucida Sans Unicode;
+    margin: 10;
+  }
+  
+
+  </style>
+  
